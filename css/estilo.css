@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../imagens/fundoazul.jpg");
+    background-repeat: repeat;
+    background-position: 50% 60%;
+    color: white;
+    font-family: arial;
+
+
+}
+input{
+    display: block;
+    height: 35px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255,255,255,0.50);
+    color: white;
+    outline: none;
+}
+
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+    top: 10px;
+}
+
+div#corpo-form img{
+    position: relative;
+    top: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+input[type=submit]{
+    background-color: rgb(57, 70, 128);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in; 
+    -o-transition: 0.1s ease-in;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(96, 110, 188, 0.686);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in; 
+    -o-transition: 0.1s ease-in; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: #fff;
+  }
+
+  /* max-width  */
+@media screen and (max-width: 600px) {
+    .um {
+        background: #F9C;
+    }
+    span.lt600 {
+        display: inline-block;
+    }
+}
+ 
+/* min-width */
+@media screen and (min-width: 900px) {
+    .dois {
+        background: #F90;
+    }
+    span.gt900 {
+        display: inline-block;
+    }
+}
+ 
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .tres {
+        background: #9CF;
+    }
+    span.bt600-900 {
+        display: inline-block;
+    }
+}
+ 
+/* max device width */
+@media screen and (max-device-width: 480px) {
+    .iphone {
+        background: #ccc;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+
+div#msg-sucesso{
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(70, 180, 125, 0.377);
+    border: rgba(39, 122, 76, 0.918);
+    border-radius: 30px;
+    position: center;
+    text-align: center;
+    transition-delay: 0.1s;
+    opacity:0;
+-webkit-animation: fadeIn 0.2s ease-in-out;
+-moz-animation: fadeIn 0.2s ease-in-out;
+-o-animation: fadeIn 0.2s ease-in-out;
+animation: fadeIn 0.2s ease-in-out; 
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+}
+
+div.msg-erro{
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(158, 41, 47, 0.658);
+    border-color: rgba(95, 25, 28, 0.918);
+    border-radius: 30px;
+    text-align: center;
+    width: 250px;
+    transition-delay: 0.1s;
+    opacity:0;
+-webkit-animation: fadeIn 0.2s ease-in-out;
+-moz-animation: fadeIn 0.2s ease-in-out;
+-o-animation: fadeIn 0.2s ease-in-out;
+animation: fadeIn 0.2s ease-in-out; 
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+-o-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+}
