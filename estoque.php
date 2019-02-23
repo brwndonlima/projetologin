@@ -7,7 +7,4 @@
    }
 ?>
 
-login feito, <?php  echo $_SESSION['nome'] = $rs['nome']; ?>
-
-<p><a href="financeiro.php"> Finanças</a></p>
-<p><a href="index.php"> SAIR</a></p>
+login feito
