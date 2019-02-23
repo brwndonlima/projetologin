@@ -7,4 +7,8 @@
    }
 ?>
 
+<div>
 login feito
+<br><br><br>
+<a href="index.php"><strong> Sair</strong>
+</div>
